@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Supanut/%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2/Project_mlops_bean/mlruns/107541517149333110/1e899218cf3d49d1b1874f1f890596f0/artifacts
+end_time: 1759052932440
+entry_point_name: ''
+experiment_id: '107541517149333110'
+lifecycle_stage: active
+run_id: 1e899218cf3d49d1b1874f1f890596f0
+run_name: intelligent-mule-613
+run_uuid: 1e899218cf3d49d1b1874f1f890596f0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759052929564
+status: 3
+tags: []
+user_id: USER

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Supanut/%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2/Project_mlops_bean/mlruns/966473397703479728/f366f14cbbd540bb8bc500cff448d9ee/artifacts
+deleted_time: 1759054148600
+end_time: 1759053359597
+entry_point_name: ''
+experiment_id: '966473397703479728'
+lifecycle_stage: deleted
+run_id: f366f14cbbd540bb8bc500cff448d9ee
+run_name: XGBoost_training
+run_uuid: f366f14cbbd540bb8bc500cff448d9ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759053359564
+status: 4
+tags: []
+user_id: USER

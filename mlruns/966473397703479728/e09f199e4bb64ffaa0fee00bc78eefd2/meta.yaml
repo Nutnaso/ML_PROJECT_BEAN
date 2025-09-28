@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Supanut/%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2/Project_mlops_bean/mlruns/966473397703479728/e09f199e4bb64ffaa0fee00bc78eefd2/artifacts
+deleted_time: 1759054148600
+end_time: 1759053345736
+entry_point_name: ''
+experiment_id: '966473397703479728'
+lifecycle_stage: deleted
+run_id: e09f199e4bb64ffaa0fee00bc78eefd2
+run_name: LogisticRegression_training
+run_uuid: e09f199e4bb64ffaa0fee00bc78eefd2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759053342345
+status: 3
+tags: []
+user_id: USER

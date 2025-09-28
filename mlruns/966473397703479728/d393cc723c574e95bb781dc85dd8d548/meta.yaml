@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Supanut/%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2/Project_mlops_bean/mlruns/966473397703479728/d393cc723c574e95bb781dc85dd8d548/artifacts
+deleted_time: 1759054148599
+end_time: 1759053354593
+entry_point_name: ''
+experiment_id: '966473397703479728'
+lifecycle_stage: deleted
+run_id: d393cc723c574e95bb781dc85dd8d548
+run_name: RandomForest_training
+run_uuid: d393cc723c574e95bb781dc85dd8d548
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759053345742
+status: 3
+tags: []
+user_id: USER

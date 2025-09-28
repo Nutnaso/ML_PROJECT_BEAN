@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Supanut/%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2/Project_mlops_bean/mlruns/880382972672274001/47a1dd1a6cec4485adcca6bb9ea629f3/artifacts
+end_time: 1759052964737
+entry_point_name: ''
+experiment_id: '880382972672274001'
+lifecycle_stage: active
+run_id: 47a1dd1a6cec4485adcca6bb9ea629f3
+run_name: gaudy-vole-536
+run_uuid: 47a1dd1a6cec4485adcca6bb9ea629f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759052963347
+status: 3
+tags: []
+user_id: USER

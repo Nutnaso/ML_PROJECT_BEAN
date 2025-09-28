@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Supanut/%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2/Project_mlops_bean/mlruns/107541517149333110/4aa89558f7a94c5885f1065fe831d967/artifacts
+end_time: 1759052978095
+entry_point_name: ''
+experiment_id: '107541517149333110'
+lifecycle_stage: active
+run_id: 4aa89558f7a94c5885f1065fe831d967
+run_name: redolent-sow-998
+run_uuid: 4aa89558f7a94c5885f1065fe831d967
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759052976525
+status: 3
+tags: []
+user_id: USER

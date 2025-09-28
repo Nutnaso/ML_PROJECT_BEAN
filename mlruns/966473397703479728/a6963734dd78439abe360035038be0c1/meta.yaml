@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Supanut/%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2/Project_mlops_bean/mlruns/966473397703479728/a6963734dd78439abe360035038be0c1/artifacts
+deleted_time: 1759054148599
+end_time: 1759053359558
+entry_point_name: ''
+experiment_id: '966473397703479728'
+lifecycle_stage: deleted
+run_id: a6963734dd78439abe360035038be0c1
+run_name: SVC_training
+run_uuid: a6963734dd78439abe360035038be0c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759053354598
+status: 3
+tags: []
+user_id: USER
