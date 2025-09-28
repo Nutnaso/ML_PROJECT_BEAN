@@ -1,17 +1,21 @@
-import os
 import json
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 import mlflow
-
+from pathlib import Path
 
 def validate_data():
     mlflow.set_experiment("Dry Bean Classification - Data Validation")
 
-    # หา path ของ Dry_Bean_Dataset.xlsx ที่อยู่ในโฟลเดอร์ mlops_pipeline
-    base_dir = os.path.dirname(os.path.dirname(__file__))  # ขึ้นไป 1 ระดับจาก scripts/
-    data_path = os.path.join(base_dir, "Dry_Bean_Dataset.xlsx")
+    # base_dir ของ repo (root ของ mlops_pipeline)
+    base_dir = Path(__file__).resolve().parent.parent  # ../ จาก scripts/
+    data_path = base_dir / "Dry_Bean_Dataset.xlsx"
+
+    # folder สำหรับเก็บ report
+    reports_dir = base_dir / "reports"
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    report_path = reports_dir / "validation_report.json"
 
     with mlflow.start_run():
         print("Starting data validation run...")
@@ -69,14 +73,12 @@ def validate_data():
         mlflow.log_param("validation_status", validation_report["validation_status"])
 
         # บันทึก report เป็น JSON แล้ว log เข้า MLflow
-        report_path = os.path.join(base_dir, "validation_report.json")
         with open(report_path, "w") as f:
             json.dump(validation_report, f, indent=4)
-        mlflow.log_artifact(report_path)
+        mlflow.log_artifact(str(report_path))
 
         print(json.dumps(validation_report, indent=4))
         print("Data validation run finished.")
-
 
 if __name__ == "__main__":
     validate_data()
